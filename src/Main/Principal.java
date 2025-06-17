@@ -19,6 +19,9 @@ public class Principal {
 		// nueva funcion 
 		float numero1=3.1416f;
 				System.out.println("el resultado de pi es =" + numero1);
+				System.out.println("otra modificacion más ");
+	float numero2=3.1416f;
+				System.out.println("el resultado de pi es =" + numero1);
 
 		Clientes cliente;
 		LogicaMetodos imp = new LogicaMetodos();
