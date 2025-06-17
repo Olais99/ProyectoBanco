@@ -16,6 +16,9 @@ public class Principal {
 		String correo;
 		double saldo = 0.0;
 		String estatus = "Activo";
+		// nueva funcion 
+		float numero1=3.1416f;
+				System.out.println("el resultado de pi es =" + numero1);
 
 		Clientes cliente;
 		LogicaMetodos imp = new LogicaMetodos();
@@ -26,6 +29,7 @@ public class Principal {
 			System.out.println("3--- deposito de efectivo ");
 			System.out.println("4---Retiro de efectivo");
 			System.out.println("5--- salir");
+			System.out.println("Fin del proyecto");
 
 			lectura = new Scanner(System.in);
 			menuPrin = lectura.nextInt();
@@ -96,7 +100,7 @@ public class Principal {
 			case 5 :
 				break;
 			}
-		} while (menuPrin < 5);
+		} while (menuPrin < 6);
 
 	}
 
